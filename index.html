@@ -50,22 +50,22 @@
             <div class="bn1">
                 <img src="ux-design.png">
                 <p style="margin-top: 5px;">UX & UI
-                </br> <p style="margin-top: 10px;font: menu">Designing interfaces that are </br> intuitive, efficient, and </br> enjoyable to use.</p></p>
+                </br> <p style="margin-top: 10px;font: menu;font-size: 11px">Designing interfaces that are </br> intuitive, efficient, and </br> enjoyable to use.</p></p>
             </div>
             <div class="bn2">
                 <img src="app-development.png">
                 <p style="margin-top: 5px;">Web & Mobile App
-                </br> <p style="margin-top: 10px;font: menu">Transforming ideas into </br>exceptional web and mobile</br> app experiences.</p></p>
+                </br> <p style="margin-top: 10px;font: menu;font-size: 11px">Transforming ideas into </br>exceptional web and mobile</br> app experiences.</p></p>
             </div>
             <div class="bn3">
                 <img src="illustration.png">
                 <p style="margin-top: 5px;">Design & Creative
-                </br> <p style="margin-top: 10px;font: menu">Crafting visually stunning</br> designs that connect with your</br> audience.</p></p>
+                </br> <p style="margin-top: 10px;font: menu;font-size: 11px">Crafting visually stunning</br> designs that connect with your</br> audience.</p></p>
             </div>
             <div class="bn4">
                 <img src="development.png">
                 <p style="margin-top: 5px;">Development
-                </br> <p style="margin-top: 10px;font: menu">Bringing your vision to life with</br> the latest technology and</br> design trends.</p></p>
+                </br> <p style="margin-top: 10px;font: menu;font-size: 11px">Bringing your vision to life with</br> the latest technology and</br> design trends.</p></p>
             </div>
         <div class="head3">
             <span class="dot2">
@@ -81,7 +81,7 @@
                 <button class="bt2"  onclick="openWhatsApp()" >Whatsapp</button></div>
                 <script>
                     function openWhatsApp() {
-                        const phone = '9361594132'; // Replace with the phone number (include country code, no "+" or spaces)
+                        const phone = '8056769971'; // Replace with the phone number (include country code, no "+" or spaces)
                         const message = encodeURIComponent('Hello!'); // Replace with your message
                         const url = `https://wa.me/${phone}?text=${message}`;
                         window.open(url, '_blank');
@@ -95,5 +95,40 @@
             </div>   
         </div>
     </div>
+    <script>
+        /* Sticky NavBar */
+        window .addEventListener('scroll',function(){
+            var header = document .querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        });
+
+        /* Responsive NavBar */
+
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const nav = document.querySelector('.nav');
+            toggleMenu.classList.toggle('active')
+            nav.classList.toggle('active')
+        }
+
+        /* scrolling Animation Effects */
+        window.addEventListener('scroll',function(){
+            var anime = document.querySelectorAll('.animeX');
+
+            for(var s = 0; s < anime.length; s++){
+                var windowheight = window.innerHeight;
+                var animetop = anime[s].getBoundingClientRect().top;
+                var animepoint = 150;
+
+                if(animetop < windowheight - animepoint){
+                    anime[s].classList.add('active');
+                }
+                else{
+                    anime[s].classList.remove('active');
+                }
+              }
+        })
+    </script>    
+
 </body>
 </html>
