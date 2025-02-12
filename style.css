@@ -315,10 +315,10 @@ input{
     margin-left: 107px;
 }
 .link1{
-    margin-left: 732px;
+    margin-left: 60%;
 }
 
- /* Responsive Design */
+ /* Responsive Design 
 
 @media (max-width: 700px)
 
@@ -330,7 +330,7 @@ input{
         margin-left: 54%;
     }
 }
- /*   .head2{
+   .head2{
         width: 700px;
     }
     header{
