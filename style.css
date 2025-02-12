@@ -308,7 +308,7 @@ input{
     margin-left: 1%;
     margin-top: 3%;
     border: 1px solid darkgray;
-    width: 90%;
+    width: 1148px;
 }
 .p{
     margin-top: 1%;
@@ -317,3 +317,73 @@ input{
 .link1{
     margin-left: 732px;
 }
+
+ /* Responsive Design */
+
+@media (max-width: 700px)
+
+{
+    .head{
+        width: 324%;
+    }
+    .name{
+        margin-left: 54%;
+    }
+}
+ /*   .head2{
+        width: 700px;
+    }
+    header{
+       width: 100%;
+       height : 500px;
+    }
+    header .srch{
+        width: 170px;
+        height: 20px;
+        margin-left: 7px;
+    }
+    header .btn{
+        width: 34px;
+        height: 20px;
+        font-size: 8px;
+        margin-left: -36px;
+    }
+    header .bt{
+        width: 34px;
+        height: 20px;
+        font-size: 8px;
+    }
+    header .link{
+        font-size: 10px;
+        margin-left: 330px;
+    }
+    header .name{
+        margin-left: 388px;
+    }
+    .one{
+        font-size: 10px;
+    }
+    .two{
+        font-size: 16px;
+    }
+    .border{
+        margin-left: -42px;
+        width: 640px;
+    }
+    .bn1{
+        margin-left: 197px;
+        font-size: 14px;
+    }
+    .bn2{
+        margin-left: 354px;
+    }
+    .bn3{
+        margin-left: 512px;
+    }
+    .bn4{
+        margin-left: 682px;
+    }
+    .head3{
+        width: 700px;
+    }
+} */
