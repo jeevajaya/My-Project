@@ -127,16 +127,21 @@ header {
     border-radius: 50%;
 }
 .btnn{
-    height: 42px;
-    background-color: black;
+    margin-left: 0%;
+    line-height: 1.5;
+    text-decoration: none;
+    word-break: break-word;
+    font-weight: 500;
+    display: inline-block;
+    font-family: "Roboto Condensed", serif;
+    font-size: 13px;
     color: white;
-    border-radius: 15px;
-    border: 1px solid white;
-    margin-top: 41px;
-    font-size: 15px;
-    text-overflow: clip;
-    white-space: per-wrap;
-    word-wrap: break-word;
+    margin-top: 28px;
+    padding:10px 14px;
+    border-radius:15px;
+    border: transparent;
+    background-color: black;
+    white-space:nowrap;
 }
 .wrapper{
     width: 100%;
@@ -212,14 +217,21 @@ header {
     font-size: 20px;
 }
 .bn{
-    width: 15%;
-    height: 40px;
-    background-color: white;
+    margin-left: 0%;
+    line-height: 1.5;
+    text-decoration: none;
+    word-break: break-word;
+    font-weight: 500;
+    display: inline-block;
+    font-family: "Roboto Condensed", serif;
+    font-size: 15px;
     color: black;
+    margin-top: 28px;
+    padding:10px 14px;
     border-radius: 20px;
-    border: 1px solid white;
-    margin-top: 64px;
-    font-size: 13px;
+    border: transparent;
+    background-color: white;
+    white-space:nowrap;
     rotate: -10deg;
 }
 .border{
