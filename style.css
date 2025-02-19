@@ -20,6 +20,7 @@ header {
     border-bottom-right-radius: 40px;
 }
 .srch{
+    margin-left: 14%;
     line-height: 1.5;
     text-decoration: none;
     word-break: break-word;
@@ -73,7 +74,7 @@ header {
     font-family: "Roboto Condensed", serif;
     font-size: 15px;
     color: #161616;
-    margin-left: 42%;
+    margin-left: 29%;
 }
 .name{
     border-radius: 15px;
